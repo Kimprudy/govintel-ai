@@ -1,7 +1,7 @@
 import re
 from langchain_anthropic import ChatAnthropic
 from govintel.config import ANTHROPIC_API_KEY
-from govintel.retrieve import search
+from govintel.retrieve import search_sections as search
 
 MODEL = "claude-sonnet-4-6"
 
