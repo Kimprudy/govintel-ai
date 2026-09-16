@@ -1,0 +1,1104 @@
+[
+  {
+    "id": 1,
+    "type": "answerable",
+    "question": "What does the regulation mean by a micro-purchase?",
+    "expected": [
+      "2 CFR 200.1"
+    ],
+    "retrieved": [
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "answer": "A micro-purchase is defined as \"an individual procurement transaction for supplies or services, the aggregate amount of which does not exceed the micro-purchase threshold\" [2 CFR 200.1]. Micro-purchases comprise a subset of a recipient's or subrecipient's small purchases using informal procurement methods [2 CFR 200.1].\n\nA key benefit of micro-purchases is that they \"may be awarded without soliciting competitive price or rate quotations if the recipient or subrecipient considers the price reasonable based on research, experience, purchase history, or other information,\" and purchase cards may be used as a method of payment [2 CFR 200.320]. To the extent practicable, micro-purchases should be distributed equitably among qualified suppliers [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 2,
+    "type": "answerable",
+    "question": "What is the micro-purchase threshold used for?",
+    "expected": [
+      "2 CFR 200.1"
+    ],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "answer": "The micro-purchase threshold is the dollar amount at or below which a recipient or subrecipient may purchase property or services using micro-purchase procedures [2 CFR 200.1]. When a procurement falls at or below this threshold, it may be awarded without soliciting competitive price or rate quotations, as long as the recipient or subrecipient considers the price reasonable based on research, experience, purchase history, or other information and maintains supporting documentation [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 3,
+    "type": "answerable",
+    "question": "How is the Federal micro-purchase threshold generally determined under Part 200?",
+    "expected": [
+      "2 CFR 200.1"
+    ],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "answer": "Under Part 200, the micro-purchase threshold is generally set at the amount established by the Federal Acquisition Regulations (FAR) at 48 CFR part 2, subpart 2.1 [2 CFR 200.1]. However, recipients and subrecipients may establish their own threshold based on \"internal controls, an evaluation of risk, and its documented procurement procedures,\" provided it is \"authorized or not prohibited under State, local, or tribal laws or regulations\" [2 CFR 200.320]. A recipient or subrecipient may self-certify a threshold up to $50,000 annually, or request approval from the cognizant agency for indirect costs for a threshold exceeding $50,000 [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 4,
+    "type": "answerable",
+    "question": "How is the simplified acquisition threshold described in Part 200?",
+    "expected": [
+      "2 CFR 200.1"
+    ],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.1",
+      "2 CFR 200.320",
+      "2 CFR 200.325"
+    ],
+    "cited": [
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "answer": "The simplified acquisition threshold is described as the dollar value established in the FAR at 48 CFR part 2, subpart 2.1, which is used as the threshold for secondary procurement activities administered under Federal awards [2 CFR 200.1]. Recipients and subrecipients are responsible for determining an appropriate simplified acquisition threshold based on internal controls, an evaluation of risk, and their documented procurement procedures, but this threshold must be less than or equal to, and must never exceed, the dollar value established in the FAR [2 CFR 200.1]. Formal procurement methods are required when the value of a procurement transaction exceeds the recipient's or subrecipient's simplified acquisition threshold [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 5,
+    "type": "answerable",
+    "question": "Who is responsible for determining an appropriate simplified acquisition threshold for a recipient or subrecipient?",
+    "expected": [
+      "2 CFR 200.1"
+    ],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.320",
+      "2 CFR 782.500",
+      "2 CFR 782.505"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "The recipient or subrecipient is responsible for determining an appropriate simplified acquisition threshold based on internal controls, an evaluation of risk, and its documented procurement procedures [2 CFR 200.320]. However, this threshold may be lower than, but must not exceed, the threshold established in the FAR [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": false,
+    "citation_hit": false,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 6,
+    "type": "answerable",
+    "question": "What is the maximum relationship between a recipient's simplified acquisition threshold and the FAR threshold?",
+    "expected": [
+      "2 CFR 200.1"
+    ],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.1",
+      "2 CFR 200.320",
+      "2 CFR 200.325"
+    ],
+    "cited": [
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "answer": "The recipient or subrecipient's simplified acquisition threshold must never exceed the dollar value established in the FAR [2 CFR 200.1]. Specifically, the recipient or subrecipient is responsible for determining an appropriate simplified acquisition threshold \"which may be lower than, but must not exceed, the threshold established in the FAR\" [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 7,
+    "type": "answerable",
+    "question": "What types of procurement methods are described in the regulation?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "According to the regulation, there are three types of procurement methods [2 CFR 200.320]: **informal procurement methods** (for micro-purchases and simplified acquisitions), **formal procurement methods** (through sealed bids or proposals), and **noncompetitive procurement methods**. For any of these methods, the recipient or subrecipient must maintain and use documented procurement procedures, consistent with the standards of the section and \u00a7\u00a7 200.317, 200.318, and 200.319 [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 8,
+    "type": "answerable",
+    "question": "When may a recipient use micro-purchase procedures without soliciting competitive price or rate quotations?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "A recipient may award micro-purchases without soliciting competitive price or rate quotations if two conditions are met: the recipient or subrecipient considers the price reasonable based on research, experience, purchase history, or other information; and maintains documents to support its conclusion [2 CFR 200.320(a)(1)(ii)]. Additionally, the aggregate amount of the procurement transaction must not exceed the micro-purchase threshold [2 CFR 200.320(a)(1)(i)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 9,
+    "type": "answerable",
+    "question": "Who determines the appropriate micro-purchase threshold for a recipient or subrecipient?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.1",
+      "2 CFR 200.320",
+      "2 CFR 782.505"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "The recipient or subrecipient itself is responsible for determining and documenting an appropriate micro-purchase threshold, based on internal controls, an evaluation of risk, and its documented procurement procedures [2 CFR 200.320]. However, if the recipient or subrecipient wishes to establish a threshold exceeding $50,000, that higher threshold must be approved by the cognizant agency for indirect costs [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 10,
+    "type": "answerable",
+    "question": "What must a recipient do when establishing or using a higher micro-purchase threshold?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.1",
+      "2 CFR 200.320",
+      "2 CFR 200.325"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the provided excerpts, a recipient establishing a higher micro-purchase threshold must meet several requirements depending on the threshold level.\n\n**For thresholds up to $50,000:** The recipient may self-certify on an annual basis and must maintain documentation available to the Federal agency, pass-through entity, and auditors in accordance with \u00a7 200.334 [2 CFR 200.320]. The self-certification must include a justification, clear identification of the threshold, and supporting documentation demonstrating at least one of the following: qualification as a low-risk auditee per \u00a7 200.520, an annual internal institutional risk assessment, or (for public institutions) that the higher threshold is consistent with State law [2 CFR 200.320].\n\n**For thresholds over $50,000:** The recipient must obtain approval from the cognizant agency for indirect costs and submit a request that includes all the same requirements described above for the up-to-$50,000 self-certification [2 CFR 200.320]. The increased threshold remains valid only until any factor relied upon in establishing the threshold changes [2 CFR 200.320].\n\nIn all cases, the threshold used must be authorized or not prohibited under State, local, or tribal laws or regulations [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 11,
+    "type": "answerable",
+    "question": "What is required when a recipient or subrecipient uses simplified acquisition procedures?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.1",
+      "2 CFR 200.320",
+      "2 CFR 200.325"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "When a recipient or subrecipient uses simplified acquisition procedures, the aggregate dollar amount of the procurement transaction must be higher than the micro-purchase threshold but must not exceed the simplified acquisition threshold [2 CFR 200.320(a)(2)(i)]. Price or rate quotations must be obtained from an adequate number of qualified sources, and unless specified by the Federal agency, the recipient or subrecipient may exercise judgment in determining what number is adequate [2 CFR 200.320(a)(2)(i)]. Additionally, the recipient or subrecipient is responsible for determining an appropriate simplified acquisition threshold based on internal controls, an evaluation of risk, and its documented procurement procedures, which may not exceed the threshold established in the FAR [2 CFR 200.320(a)(2)(ii)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 12,
+    "type": "answerable",
+    "question": "How does the regulation describe the number of quotations required for simplified acquisitions?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Under simplified acquisition procedures, \"price or rate quotations must be obtained from an adequate number of qualified sources\" [2 CFR 200.320]. The regulation does not specify a fixed number, instead providing that \"unless specified by the Federal agency, the recipient or subrecipient may exercise judgment in determining what number is adequate\" [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 13,
+    "type": "answerable",
+    "question": "When are formal procurement methods required?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Formal procurement methods are required when the value of the procurement transaction under a Federal award exceeds the simplified acquisition threshold of the recipient or subrecipient [2 CFR 200.320]. These methods are competitive and require public notice, and apply to procurement transactions above the simplified acquisition threshold as determined by the recipient or subrecipient in accordance with their documented procurement procedures [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 14,
+    "type": "answerable",
+    "question": "What characteristic must formal procurement methods have?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Formal procurement methods must be competitive and require public notice [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 15,
+    "type": "answerable",
+    "question": "What are the two formal procurement methods described in the regulation?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the excerpts, the two formal procurement methods are **sealed bids** and **proposals** [2 CFR 200.320]. Sealed bids result in a firm-fixed-price contract awarded to the lowest responsive and responsible bidder [2 CFR 200.320], while proposals may result in either a fixed-price or cost-reimbursement contract and are used \"when conditions are not appropriate for using sealed bids\" [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 16,
+    "type": "answerable",
+    "question": "What conditions generally apply to sealed bids?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the provided excerpts, sealed bids require the following conditions to be present and requirements to apply:\n\n**Conditions for Feasibility** [2 CFR 200.320]:\n- A complete, adequate, and realistic specification or purchase description is available\n- Two or more responsible bidders have been identified as willing and able to compete effectively\n- The procurement lends itself to a firm-fixed-price contract, and selection can be made principally based on price\n\n**Requirements When Sealed Bids Are Used** [2 CFR 200.320]:\n- Bids must be solicited from an adequate number of qualified sources with sufficient response time; for local governments, the invitation must be publicly advertised\n- The invitation for bids must define the items or services with specific information, including required specifications\n- All bids must be opened at the time and place prescribed in the invitation; for local governments, bids must be opened publicly\n- A firm-fixed-price contract must be awarded in writing to the lowest responsive and responsible bidder, considering factors such as discounts, transportation cost, and life-cycle costs when specified\n- The recipient or subrecipient must document and provide a justification for all bids it rejects\n\nIt is also worth noting that sealed bids are the **preferred method for procuring construction services** [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 17,
+    "type": "answerable",
+    "question": "Which type of procurement does the regulation identify as preferred for construction?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 1108.300",
+      "2 CFR 200.318",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "The regulation identifies **sealed bids** as the preferred procurement method for construction services [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 18,
+    "type": "answerable",
+    "question": "What additional public-bidding requirements apply to local governments using sealed bids?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.318",
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the provided excerpts, local governments using sealed bids must meet two additional public-bidding requirements beyond those that apply to other recipients:\n\n1. **Public advertisement**: The invitation for bids must be publicly advertised [2 CFR 200.320].\n2. **Public bid opening**: Bids must be opened publicly [2 CFR 200.320].\n\nThese requirements are explicitly noted as applying specifically to local governments, whereas other recipients or subrecipients have more discretion in these areas (e.g., exercising their own judgment on the number of sources to solicit) [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 19,
+    "type": "answerable",
+    "question": "What must happen to rejected bids under the sealed-bid method?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Under the sealed-bid method, \"the recipient or subrecipient must document and provide a justification for all bids it rejects\" [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 20,
+    "type": "answerable",
+    "question": "What must a solicitation for proposals identify?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.203",
+      "2 CFR 200.204",
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the provided excerpts, a solicitation for proposals must identify all evaluation factors and their relative importance [2 CFR 200.320]. Additionally, the solicitation must identify any additional requirements which offerors must fulfill and all other factors that will be used in evaluating bids or proposals [2 CFR 200.319].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 21,
+    "type": "answerable",
+    "question": "What kind of evaluation procedures must be used when procuring through proposals?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 1402.204",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "When procuring through proposals, the recipient or subrecipient must have **written procedures for conducting technical evaluations and making selections** [2 CFR 200.320]. Contracts must then be awarded to the responsible offeror whose proposal is most advantageous to the recipient or subrecipient, **considering price and other factors** [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 22,
+    "type": "answerable",
+    "question": "How is the successful offeror selected when using proposals?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.319",
+      "2 CFR 200.320",
+      "2 CFR 910.509"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "When using proposals, contracts must be awarded to the responsible offeror whose proposal is most advantageous to the recipient or subrecipient considering price and other factors [2 CFR 200.320]. The recipient or subrecipient must have written procedures for conducting technical evaluations and making selections, and all evaluation factors and their relative importance must be identified in the request for proposals [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 23,
+    "type": "answerable",
+    "question": "What exception does the regulation recognize for qualifications-based selection of architectural or engineering services?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 1132.3",
+      "2 CFR 1500.11",
+      "2 CFR 200.320",
+      "2 CFR 418.205",
+      "2 CFR 418.300"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Under competitive proposal procedures, qualifications-based procurement is recognized as an exception for architectural/engineering (A/E) professional services, whereby the offeror's qualifications are evaluated and the most qualified offeror is selected, subject to negotiation of fair and reasonable compensation [2 CFR 200.320]. Critically, this method \u2014 where price is **not** used as a selection factor \u2014 \"can only be used to procure architectural/engineering (A/E) professional services\" and \"may not be used to purchase other services provided by A/E firms that are a potential source to perform the proposed effort\" [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 24,
+    "type": "answerable",
+    "question": "When may noncompetitive procurement be used?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.318",
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the provided excerpts, noncompetitive procurement may only be used if one of the following five circumstances applies:\n\n1. \"The aggregate amount of the procurement transaction does not exceed the micro-purchase threshold\" [2 CFR 200.320(c)(1)];\n2. \"The procurement transaction can only be fulfilled by a single source\" [2 CFR 200.320(c)(2)];\n3. \"The public exigency or emergency for the requirement will not permit a delay resulting from providing public notice of a competitive solicitation\" [2 CFR 200.320(c)(3)];\n4. \"The recipient or subrecipient requests in writing to use a noncompetitive procurement method, and the Federal agency or pass-through entity provides written approval\" [2 CFR 200.320(c)(4)]; or\n5. \"After soliciting several sources, competition is determined inadequate\" [2 CFR 200.320(c)(5)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 25,
+    "type": "answerable",
+    "question": "What procurement situation permits noncompetitive procurement because competition is unavailable?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the provided excerpts, noncompetitive procurement is permitted when, **\"after soliciting several sources, competition is determined inadequate\"** [2 CFR 200.320]. This circumstance falls under the specific conditions that allow a recipient or subrecipient to use a noncompetitive procurement method [2 CFR 200.320(c)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 26,
+    "type": "answerable",
+    "question": "What emergency-related circumstance can justify noncompetitive procurement?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.319",
+      "2 CFR 200.320",
+      "2 CFR 910.126"
+    ],
+    "cited": [
+      "2 CFR 200.320",
+      "2 CFR 910.126"
+    ],
+    "answer": "Based on the provided excerpts, two emergency-related circumstances can justify noncompetitive procurement:\n\n1. **For procurement transactions** under 2 CFR 200.320: \"The public exigency or emergency for the requirement will not permit a delay resulting from providing public notice of a competitive solicitation\" [2 CFR 200.320].\n\n2. **For DOE financial assistance awards** under 2 CFR 910.126: \"Time constraints associated with a public health, safety, welfare or national security requirement preclude competition\" [2 CFR 910.126].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 27,
+    "type": "answerable",
+    "question": "What must accompany a request for noncompetitive procurement based on the applicable approval route?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 1128.415",
+      "2 CFR 1128.430",
+      "2 CFR 200.319",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the provided excerpts, when a recipient or subrecipient wishes to use noncompetitive procurement through the approval route, **the request must be in writing**, and the Federal agency or pass-through entity must provide **written approval** in return [2 CFR 200.320(c)(4)].\n\nThe excerpts do not specify any additional documentation or content requirements that must accompany such a written request beyond it being submitted in writing.",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 28,
+    "type": "answerable",
+    "question": "What happens when competition is inadequate?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 200.319",
+      "2 CFR 910.126",
+      "2 CFR 930.135"
+    ],
+    "cited": [],
+    "answer": "INSUFFICIENT_CONTEXT \u2014 The provided excerpts describe requirements for full and open competition and criteria for noncompetitive awards, but do not specify consequences or remedies when competition is found to be inadequate.",
+    "refused": true,
+    "recall_hit": false,
+    "citation_hit": false,
+    "unsupported": [],
+    "refusal_correct": false
+  },
+  {
+    "id": 29,
+    "type": "answerable",
+    "question": "What must a recipient or subrecipient consider when determining its procurement thresholds?",
+    "expected": [
+      "2 CFR 200.320"
+    ],
+    "retrieved": [
+      "2 CFR 176.30",
+      "2 CFR 200.318",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "Based on the provided excerpts, recipients and subrecipients must consider different factors depending on which threshold they are setting:\n\n**Micro-purchase threshold:** The recipient or subrecipient must base it on \"internal controls, an evaluation of risk, and its documented procurement procedures,\" and the threshold \"must be authorized or not prohibited under State, local, or tribal laws or regulations\" [2 CFR 200.320].\n\n**Simplified acquisition threshold:** Similarly, it must be \"based on internal controls, an evaluation of risk, and its documented procurement procedures,\" though it \"may be lower than, but must not exceed, the threshold established in the FAR\" [2 CFR 200.320].\n\nFor recipients or subrecipients seeking to self-certify a micro-purchase threshold above the FAR level but up to $50,000, they must also provide supporting documentation demonstrating at least one of the following: qualification as a low-risk auditee, an annual internal institutional risk assessment, or \u2014 for public institutions \u2014 that the higher threshold is consistent with State law [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 30,
+    "type": "answerable",
+    "question": "Who closes an award after the required administrative actions and work have been completed?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 200.472"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "The Federal agency or pass-through entity closes out the Federal award when it determines that all administrative actions and required work of the Federal award have been completed [2 CFR 200.344].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 31,
+    "type": "answerable",
+    "question": "What happens if a recipient or subrecipient fails to complete the required closeout actions?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 200.472"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "If a recipient or subrecipient fails to complete the necessary administrative actions or required work for an award, the Federal agency or pass-through entity must proceed with closeout based on the information available [2 CFR 200.344(a)].\n\nAdditionally, if the recipient specifically fails to submit all final reports, the Federal agency must report the recipient's material failure to comply with the terms and conditions of the Federal award in SAM.gov, using the Contractor Performance Assessment Reporting System (CPARS) to enter or amend that information [2 CFR 200.344(i)]. Federal agencies may also pursue other enforcement actions as appropriate [2 CFR 200.344(i)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 32,
+    "type": "answerable",
+    "question": "How long does a recipient generally have after the period of performance ends to submit final reports?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 1134.110",
+      "2 CFR 1134.125",
+      "2 CFR 200.329",
+      "2 CFR 200.344"
+    ],
+    "cited": [
+      "2 CFR 1134.125",
+      "2 CFR 200.329",
+      "2 CFR 200.344"
+    ],
+    "answer": "Based on the provided excerpts, the answer varies by award type and agency:\n\n- For **DoD non-construction awards other than research**, the due date is **\"90 calendar days after the end of the period of performance\"** [2 CFR 1134.125(b)(1)(i)(A)], though DoD Components may pre-approve an extension making it **\"120 calendar days\"** [2 CFR 1134.125(b)(1)(ii)].\n- For **DoD research awards**, the due date is **\"120 calendar days after the end of the period of performance\"** [2 CFR 1134.125(b)(1)(i)(B)].\n- Under general OMB guidance, a recipient's final performance report is due **\"no later than 120 calendar days after the period of performance\"** [2 CFR 200.329(c)(1)], and all reports (financial, performance, and other) must be submitted **\"no later than 120 calendar days after the conclusion of the period of performance\"** [2 CFR 200.344(b)].\n\nIn all cases, extensions may be approved when justified [2 CFR 200.329(c)(1), 2 CFR 200.344(b)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 33,
+    "type": "answerable",
+    "question": "How long does a subrecipient generally have to submit its final reports after the subaward period ends?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 1134.125",
+      "2 CFR 200.329",
+      "2 CFR 200.344"
+    ],
+    "cited": [
+      "2 CFR 200.329",
+      "2 CFR 200.344"
+    ],
+    "answer": "Based on the provided excerpts, a subrecipient must submit all final reports (financial, performance, and other required reports) to the pass-through entity **no later than 90 calendar days** after the conclusion of the period of performance of the subaward [2 CFR 200.344], [2 CFR 200.329]. An earlier deadline may apply if agreed upon by the pass-through entity and subrecipient [2 CFR 200.344], and the pass-through entity may extend the due date with justification from the subrecipient [2 CFR 200.329].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 34,
+    "type": "answerable",
+    "question": "Can the deadline for submitting final reports be extended?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 1134.125",
+      "2 CFR 1134.130",
+      "2 CFR 1136.605",
+      "2 CFR 200.344"
+    ],
+    "cited": [
+      "2 CFR 1134.125",
+      "2 CFR 1134.130",
+      "2 CFR 200.344"
+    ],
+    "answer": "Yes, the deadline for submitting final reports can be extended. A recipient may request an extension of the due date for final performance reports, and DoD Components should grant requests that provide adequate justification [2 CFR 1134.130(b)]. Additionally, when justified, the Federal agency or pass-through entity may approve extensions for the recipient or subrecipient [2 CFR 200.344(b)].\n\nFurthermore, a DoD Component may proactively pre-approve a 30-day extension in its general terms and conditions\u2014for example, by specifying that final performance reports for non-construction awards other than research are due 120 calendar days (rather than 90 calendar days) after the end of the period of performance, which is especially helpful to recipients with subawards [2 CFR 1134.125(b)(1)(ii)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 35,
+    "type": "answerable",
+    "question": "What happens to the final financial report if the final indirect cost rate has not been established?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.411",
+      "2 CFR 200.414"
+    ],
+    "cited": [],
+    "answer": "INSUFFICIENT_CONTEXT \u2014 The provided excerpts address closeout timelines and indirect cost rate adjustments generally, but do not specifically describe what happens to the final financial report when a final indirect cost rate has not been established.",
+    "refused": true,
+    "recall_hit": true,
+    "citation_hit": false,
+    "unsupported": [],
+    "refusal_correct": false
+  },
+  {
+    "id": 36,
+    "type": "answerable",
+    "question": "How long does a recipient generally have to liquidate financial obligations after the period of performance ends?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 1108.285",
+      "2 CFR 1134.125",
+      "2 CFR 200.344"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "A recipient must liquidate all financial obligations incurred under a Federal award **\"no later than 120 calendar days after the conclusion of the period of performance\"** [2 CFR 200.344(c)]. When justified, the Federal agency or pass-through entity may approve extensions [2 CFR 200.344(c)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 37,
+    "type": "answerable",
+    "question": "How long does a subrecipient generally have to liquidate financial obligations after its subaward period ends?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.334",
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 2900.15"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "A subrecipient must liquidate all financial obligations incurred under a subaward **\"no later than 90 calendar days after the conclusion of the period of performance of the subaward (or an earlier date as agreed upon by the pass-through entity and subrecipient)\"** [2 CFR 200.344(c)]. Extensions may be approved by the pass-through entity when justified [2 CFR 200.344(c)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 38,
+    "type": "answerable",
+    "question": "May an agency delay payments for otherwise allowable costs during closeout?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 200.403",
+      "2 CFR 200.472"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "No. The Federal agency or pass-through entity must not delay payments to the recipient or subrecipient for costs meeting the requirements of subpart E of this part [2 CFR 200.344(d)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 39,
+    "type": "answerable",
+    "question": "What must happen to unobligated Federal funds that the recipient is not authorized to retain?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 1108.400",
+      "2 CFR 200.1",
+      "2 CFR 200.305",
+      "2 CFR 200.313"
+    ],
+    "cited": [],
+    "answer": "INSUFFICIENT_CONTEXT \u2014 The provided excerpts define \"unobligated balance\" and address interest earned on Federal funds, but do not contain provisions specifically governing what must happen to unobligated Federal funds that the recipient is not authorized to retain.",
+    "refused": true,
+    "recall_hit": false,
+    "citation_hit": false,
+    "unsupported": [],
+    "refusal_correct": false
+  },
+  {
+    "id": 40,
+    "type": "answerable",
+    "question": "What happens to the Federal share after closeout reports are submitted?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 1108.190",
+      "2 CFR 200.344",
+      "2 CFR 200.345"
+    ],
+    "cited": [
+      "2 CFR 200.344",
+      "2 CFR 200.345"
+    ],
+    "answer": "After closeout reports are received, the Federal agency or pass-through entity must make all necessary adjustments to the Federal share of costs, \"for example, to reflect the disallowance of any costs or the deobligation of an unliquidated balance\" [2 CFR 200.344(f)]. Additionally, the closeout of a Federal award does not prevent the Federal agency or pass-through entity from making financial adjustments to a previously closed Federal award, \"such as resolving indirect cost payments and making final payments\" [2 CFR 200.345(a)(3)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 41,
+    "type": "answerable",
+    "question": "What property-related requirements remain relevant during closeout?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 200.472"
+    ],
+    "cited": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 200.472"
+    ],
+    "answer": "During closeout, recipients and subrecipients must account for any property acquired with Federal funds or received from the Federal Government in accordance with the property management and disposition requirements [2 CFR 200.344(g)]. These property management requirements persist even after the Federal award is closed out [2 CFR 200.345(a)(5)]. Additionally, allowable closeout costs may include costs associated with the disposition of equipment and property [2 CFR 200.472(b)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 42,
+    "type": "answerable",
+    "question": "What is the target timeframe for a Federal agency to complete all closeout actions?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 2900.15"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "The Federal agency must make every effort to complete all closeout actions **no later than one year after the end of the period of performance** [2 CFR 200.344(h)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 43,
+    "type": "answerable",
+    "question": "What may an agency do when an unresolved indirect cost rate would otherwise delay closeout?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.411",
+      "2 CFR 200.414",
+      "2 CFR 200.472"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "When an indirect cost rate has not been finalized and would delay closeout, the Federal agency is authorized to mutually agree with the recipient to close an award using the current or most recently negotiated rate [2 CFR 200.344]. However, the recipient is not required to agree to a final rate for a Federal award for the purpose of prompt closeout [2 CFR 200.344].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 44,
+    "type": "answerable",
+    "question": "Is a recipient required to agree to a final indirect cost rate solely to achieve prompt closeout?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 200.411",
+      "2 CFR 200.472"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "No, a recipient is not required to agree to a final indirect cost rate solely for the purpose of prompt closeout. While the Federal agency is authorized to mutually agree with the recipient to close an award using the current or most recently negotiated rate when an unfinalized indirect cost rate would delay closeout, \"the recipient is not required to agree to a final rate for a Federal award for the purpose of prompt closeout\" [2 CFR 200.344(h)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 45,
+    "type": "answerable",
+    "question": "What can happen when a recipient fails to comply with closeout requirements, including final reporting requirements?",
+    "expected": [
+      "2 CFR 200.344"
+    ],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 200.472"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "When a recipient fails to comply with closeout requirements, including submitting all final reports, the Federal agency **must report the recipient's material failure to comply with the terms and conditions of the Federal award in SAM.gov** [2 CFR 200.344(i)]. The Federal agency must use the Contractor Performance Assessment Reporting System (CPARS) to enter or amend that information in SAM.gov [2 CFR 200.344(i)]. Additionally, Federal agencies may pursue **other enforcement actions as appropriate**, with a reference to \u00a7 200.339 for further guidance [2 CFR 200.344(i)].",
+    "refused": false,
+    "recall_hit": true,
+    "citation_hit": true,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 46,
+    "type": "unanswerable",
+    "question": "What exact dollar amount does Part 200 establish as the micro-purchase threshold?",
+    "expected": [],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "cited": [
+      "2 CFR 200.1",
+      "2 CFR 200.320"
+    ],
+    "answer": "Part 200 does not establish a specific dollar amount as the micro-purchase threshold. Instead, it defines the micro-purchase threshold by reference to an external source: \"the micro-purchase threshold for procurement activities administered under Federal awards is not to exceed the amount set by the FAR at 48 CFR part 2, subpart 2.1\" [2 CFR 200.1].\n\nThe only specific dollar figure mentioned in the context of micro-purchases is the **$50,000** ceiling up to which a recipient or subrecipient may self-certify a *higher* threshold without agency approval [2 CFR 200.320(a)(1)(iv)].",
+    "refused": false,
+    "recall_hit": null,
+    "citation_hit": null,
+    "unsupported": [],
+    "refusal_correct": false
+  },
+  {
+    "id": 47,
+    "type": "unanswerable",
+    "question": "What exact dollar amount does Part 200 establish as the simplified acquisition threshold?",
+    "expected": [],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.1",
+      "2 CFR 200.320",
+      "2 CFR 2205.332"
+    ],
+    "cited": [
+      "2 CFR 200.1"
+    ],
+    "answer": "INSUFFICIENT_CONTEXT. The excerpts do not specify an exact dollar amount for the simplified acquisition threshold; they only reference that the threshold is set by the Federal Acquisition Regulations (FAR) at 48 CFR subpart 2.1 and that recipient/subrecipient thresholds \"must never exceed the dollar value established in the FAR\" [2 CFR 200.1].",
+    "refused": true,
+    "recall_hit": null,
+    "citation_hit": null,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 48,
+    "type": "unanswerable",
+    "question": "What penalty percentage is automatically deducted when a recipient submits its final report late?",
+    "expected": [],
+    "retrieved": [
+      "2 CFR 1134.125",
+      "2 CFR 200.328",
+      "2 CFR 200.329",
+      "2 CFR 200.344"
+    ],
+    "cited": [],
+    "answer": "INSUFFICIENT_CONTEXT \u2014 The provided excerpts do not contain any information about a penalty percentage being automatically deducted for late submission of a final report; they address only due dates, extensions, and reporting requirements.",
+    "refused": true,
+    "recall_hit": null,
+    "citation_hit": null,
+    "unsupported": [],
+    "refusal_correct": true
+  },
+  {
+    "id": 49,
+    "type": "unanswerable",
+    "question": "How many qualified sources must a recipient contact for every simplified acquisition?",
+    "expected": [],
+    "retrieved": [
+      "2 CFR 1108.340",
+      "2 CFR 200.213",
+      "2 CFR 200.319",
+      "2 CFR 200.320",
+      "2 CFR 200.325"
+    ],
+    "cited": [
+      "2 CFR 200.320"
+    ],
+    "answer": "The regulation does not specify a fixed number of qualified sources. Instead, it states that \"price or rate quotations must be obtained from an adequate number of qualified sources\" and that \"[u]nless specified by the Federal agency, the recipient or subrecipient may exercise judgment in determining what number is adequate\" [2 CFR 200.320].",
+    "refused": false,
+    "recall_hit": null,
+    "citation_hit": null,
+    "unsupported": [],
+    "refusal_correct": false
+  },
+  {
+    "id": 50,
+    "type": "unanswerable",
+    "question": "What percentage of an award is automatically forfeited when an agency completes closeout more than one year after the period of performance ends?",
+    "expected": [],
+    "retrieved": [
+      "2 CFR 200.344",
+      "2 CFR 200.345",
+      "2 CFR 2900.15"
+    ],
+    "cited": [
+      "2 CFR 200.344"
+    ],
+    "answer": "INSUFFICIENT_CONTEXT. The provided excerpts contain no provision establishing any automatic forfeiture percentage when closeout is completed more than one year after the period of performance ends; they only state that the Federal agency \"must make every effort to complete all closeout actions no later than one year after the end of the period of performance\" [2 CFR 200.344(h)].",
+    "refused": true,
+    "recall_hit": null,
+    "citation_hit": null,
+    "unsupported": [],
+    "refusal_correct": true
+  }
+]
