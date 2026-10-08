@@ -1,7 +1,7 @@
 import re
 from langchain_anthropic import ChatAnthropic
 from govintel.config import ANTHROPIC_API_KEY
-from govintel.retrieve import search_sections as search
+from govintel.retrieve import search_hybrid as search
 
 MODEL = "claude-sonnet-4-6"
 
@@ -50,12 +50,7 @@ def verify_citations(answer: str, chunks: list) -> dict:
 def ask(question: str, k: int = 5) -> dict:
     chunks = search(question, k=k)
 
-    llm = ChatAnthropic(
-        model=MODEL,
-        api_key=ANTHROPIC_API_KEY,
-        max_tokens=1000,
-        temperature=0,
-    )
+    llm = get_llm()
 
     response = llm.invoke([
         ("system", SYSTEM_PROMPT),
@@ -76,6 +71,34 @@ def ask(question: str, k: int = 5) -> dict:
         "retrieved": [c["citation"] for c in chunks],
         "verification": verification,
     }
+
+
+def get_llm():
+    """Return a chat model for the configured provider.
+
+    Provider is config, not code, so switching to Bedrock later is a .env
+    change rather than a rewrite.
+    """
+    from govintel.config import LLM_PROVIDER, LLM_MODEL
+
+    if LLM_PROVIDER == "agentrouter":
+        from langchain_openai import ChatOpenAI
+        from govintel.config import AGENTROUTER_API_KEY, AGENTROUTER_BASE_URL
+        return ChatOpenAI(
+            model=LLM_MODEL,
+            api_key=AGENTROUTER_API_KEY,
+            base_url=AGENTROUTER_BASE_URL,
+            max_tokens=1000,
+            temperature=0,
+        )
+
+    return ChatAnthropic(
+        model=LLM_MODEL,
+        api_key=ANTHROPIC_API_KEY,
+        max_tokens=1000,
+        temperature=0,
+    )
+
 
 
 if __name__ == "__main__":

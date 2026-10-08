@@ -110,3 +110,69 @@ def search_sections(query: str, k: int = 5, fetch: int = 25) -> list:
             "score": score,
         })
     return out
+
+
+from rank_bm25 import BM25Okapi as _BM25
+
+_BM25_INDEX = None
+_BM25_CITES = None
+
+
+def _build_bm25():
+    """Keyword index over full section text, built once."""
+    global _BM25_INDEX, _BM25_CITES
+    if _BM25_INDEX is None:
+        sections = _load_sections()
+        _BM25_CITES = list(sections.keys())
+        corpus = [
+            (sections[c]["heading"] + " " + sections[c]["text"]).lower().split()
+            for c in _BM25_CITES
+        ]
+        _BM25_INDEX = _BM25(corpus)
+    return _BM25_INDEX, _BM25_CITES
+
+
+def search_hybrid(query: str, k: int = 5, fetch: int = 25, bm25_k: int = 10) -> list:
+    """Vector search plus BM25 keyword search, merged by reciprocal rank fusion.
+
+    Vector search finds semantically related sections but misses exact terms.
+    BM25 catches literal wording. RRF merges the two rankings without needing
+    the scores to be on the same scale.
+    """
+    store = get_store()
+    vec_hits = store.similarity_search_with_score(query, k=fetch)
+
+    vec_order = []
+    for doc, _ in vec_hits:
+        c = doc.metadata["citation"]
+        if c not in vec_order:
+            vec_order.append(c)
+
+    index, cites = _build_bm25()
+    scores = index.get_scores(query.lower().split())
+    top = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:bm25_k]
+    bm_order = [cites[i] for i in top]
+
+    # reciprocal rank fusion
+    fused = {}
+    for rank, c in enumerate(vec_order):
+        fused[c] = fused.get(c, 0) + 1.0 / (60 + rank)
+    for rank, c in enumerate(bm_order):
+        fused[c] = fused.get(c, 0) + 1.0 / (60 + rank)
+
+    best = sorted(fused, key=fused.get, reverse=True)[:k]
+
+    sections = _load_sections()
+    out = []
+    for c in best:
+        rec = sections.get(c)
+        if not rec:
+            continue
+        text = rec["text"][:MAX_SECTION_CHARS]
+        out.append({
+            "citation": c,
+            "heading": rec["heading"],
+            "text": f"{c} — {rec['heading']}\n\n{text}",
+            "score": fused[c],
+        })
+    return out
